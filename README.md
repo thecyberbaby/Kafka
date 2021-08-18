@@ -21,4 +21,12 @@ Apache Kafka is an open-source distributed event streaming platform used by thou
      tar -xzf kafka_2.13-2.8.0.tgz
      cd kafka_2.13-2.8.0
 
-     
+### Installation using docker
+
+ prerequisite:  [Docker](https://docs.docker.com/engine/install/) must be install on your machine.
+                [Docker-compose](https://docs.docker.com/compose/install/) also must be installed on your machine .
+
+You can also check the installed versions by :
+
+    docker --version
+    docker-compose --version
