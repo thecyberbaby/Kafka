@@ -69,5 +69,38 @@ using conatiner id :
 
 by this you should be in the kafka container service
 
+
+### Creating topics
+
 Now, you we'll create some topics and list them. So, let's get started..
 
+    cd opt/kafka/
+    ls
+
+there should be `bin` directory present there
+
+    ./bin/kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partition 1 --topic nishant
+
+    //output
+    created topic nishant
+
+list the topic :
+
+    ./bin/kafka-topics.sh --list --zookeeper zookeeper:2181
+
+    //output will be
+    nishant
+
+creatring another new topic:
+
+    ./bin/kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partition 1 --topic cloudoric
+
+    //listing topics
+    ./bin/kafka-topics.sh --list --zookeeper zookeeper:2181
+
+
+    //output will be
+    nishant
+    cloudoric
+
+That's it for this.
