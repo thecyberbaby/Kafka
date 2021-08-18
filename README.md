@@ -39,3 +39,9 @@ create a new directory kafka-docker :
 
 you can download the docker-compose.yml file from above code. [link](https://github.com/thecyberbaby/Kafka).
 
+
+Now, diagram can be well explained the docker-compose file 
+
+<p>
+    <img src="snapKafka.PNG" width="720" />
+</p>
