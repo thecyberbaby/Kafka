@@ -45,3 +45,29 @@ Now, diagram can be well explained the docker-compose file
 <p>
     <img src="snapKafka.PNG" width="720" />
 </p>
+
+### Starting the service
+
+using docker-compose file:
+
+    docker-compose -f docker-compose.yml up -d
+    //output will be
+    starting zookeeper              ...done
+    starting kafka-installation     ...done
+
+we can also verify the docker containers are up and running :
+
+    docker-compose ps
+    or
+    docker ps
+
+### Entering into the service
+
+using conatiner id :
+
+    docker exec -it <conatiner-id> /bin/sh
+
+by this you should be in the kafka container service
+
+Now, you we'll create some topics and list them. So, let's get started..
+
