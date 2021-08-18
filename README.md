@@ -23,10 +23,19 @@ Apache Kafka is an open-source distributed event streaming platform used by thou
 
 ### Installation using docker
 
- prerequisite:  [Docker](https://docs.docker.com/engine/install/) must be install on your machine.
-                [Docker-compose](https://docs.docker.com/compose/install/) also must be installed on your machine .
+ prerequisite:  
+  - [Docker](https://docs.docker.com/engine/install/) must be install on your machine.
+  - [Docker-compose](https://docs.docker.com/compose/install/) also must be installed on your machine .
 
 You can also check the installed versions by :
 
     docker --version
     docker-compose --version
+
+create a new directory kafka-docker :
+
+    cd Desktop
+    mkdir kafka-docker
+
+you can download the docker-compose.yml file from above code. [link](https://github.com/thecyberbaby/Kafka).
+
